@@ -103,10 +103,35 @@ export const resume = {
 
   experience: [
     {
+      company: "Starbucks",
+      contractCompany: "Contract",
+      role: "Data Engineer",
+      dates: "Dec 2025 – Present",
+      bullets: [
+        "Architected robust batch and streaming ETL workflows using Azure and Databricks, processing highly sensitive Customer data at scale to establish a unified single source of truth for business reporting.",
+        "Enforced strict enterprise data governance standards by addressing PII data masking and privacy compliance leveraging Collibra, ensuring analytics teams could safely query datasets without risking customer privacy securely.",
+        "Designed scalable self-serve data pipelines, closely collaborating with cross-functional stakeholders to integrate data solutions directly into business applications, successfully unblocking downstream engineering teams.",
+        "Maintained complex data pipelines supporting \"Product Owner\" AI agents via Microsoft Copilot Studio, providing reliable APIs and robust backend execution that enabled automated business answers in seconds instead of hours.",
+        "Leveraged GitHub Copilot to accelerate code generation, optimize PySpark data transformations, and enforce high coding standards, drastically reducing time-to-deployment for next-generation data solutions."
+      ],
+      environment: [
+        "Azure",
+        "Databricks",
+        "ETL",
+        "Collibra",
+        "Data Governance",
+        "PII Data Masking",
+        "Microsoft Copilot Studio",
+        "GitHub Copilot",
+        "PySpark",
+        "AI Agents"
+      ],
+    },
+    {
       company: "Microsoft",
       contractCompany: "C2S Technologies Inc",
       role: "Data Engineer",
-      dates: "Sep 2024 – Present",
+      dates: "Sep 2024 – Dec 2025",
       bullets: [
         "Own and execute data pipeline and warehouse strategies across multiple Xbox gaming telemetry domains, focused on supporting Xcloud product forecasting, usage analytics, and platform performance.",
         "Collaborated directly with product managers, data scientists, and engineers to define logging needs and ensure telemetry captured actionable signals for user behavior analysis, feature adoption, and infrastructure scaling decisions.",
