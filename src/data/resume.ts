@@ -3,7 +3,7 @@ export const resume = {
     name: "Kiran Talagana",
     title: "Data Engineer",
     summary:
-      "Experienced professional with 8 years of engineering experience, driven and motivated to excel as a Data Engineer.",
+      "Senior Data Engineer with 9+ years of experience building and scaling mission-critical data platforms at Microsoft, Atlassian, and Citrix. Proven expertise in designing distributed processing systems leveraging Spark, Azure Data Lake Gen2, and Synapse Analytics. Highly skilled in ETL/ELT workflow development, data quality governance, and deploying core platform APIs and telemetry pipelines. Adept at maintaining machine learning data pipelines, feature engineering, and supporting reliable experimentation infrastructure (A/B testing) to empower advanced analytics, low-code self-serve reporting (Power BI), and AI-driven innovation.",
     location: "Redmond, Washington",
     email: "kirantalagana@hotmail.com",
     phone: "+1 217-993-4772",
@@ -129,7 +129,7 @@ export const resume = {
     },
     {
       company: "Microsoft",
-      contractCompany: "C2S Technologies Inc",
+      contractCompany: "Contract",
       role: "Data Engineer",
       dates: "Sep 2024 – Dec 2025",
       bullets: [
@@ -172,7 +172,7 @@ export const resume = {
     },
     {
       company: "Taylor Farms Retail USA",
-      contractCompany: "C2S Technologies Inc",
+      contractCompany: "Contract",
       role: "Data Engineer",
       dates: "Sep 2023 – Aug 2024",
       bullets: [
