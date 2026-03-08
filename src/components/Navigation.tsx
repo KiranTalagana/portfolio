@@ -5,12 +5,14 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Sun, Moon } from "lucide-react";
 import { useTheme } from "next-themes";
 
+import { resume } from "@/data/resume";
+
 const navItems = [
     { label: "Experience", id: "experience" },
-    { label: "Achievements", id: "achievements" },
+    ...(resume.achievements && resume.achievements.length > 0 ? [{ label: "Achievements", id: "achievements" }] : []),
     { label: "Skills", id: "skills" },
     { label: "Education", id: "education" },
-    { label: "Publications", id: "publications" },
+    ...(resume.publications && resume.publications.length > 0 ? [{ label: "Publications", id: "publications" }] : []),
     { label: "Contact", id: "contact" },
 ];
 

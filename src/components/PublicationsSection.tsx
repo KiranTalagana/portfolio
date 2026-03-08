@@ -5,6 +5,8 @@ import { resume } from "@/data/resume";
 import { BookOpen } from "lucide-react";
 
 export default function PublicationsSection() {
+    if (!resume.publications || resume.publications.length === 0) return null;
+
     return (
         <section id="publications" className="section-container">
             {/* Section header */}

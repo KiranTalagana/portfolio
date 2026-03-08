@@ -36,6 +36,8 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 export default function AchievementsSection() {
+    if (!resume.achievements || resume.achievements.length === 0) return null;
+
     // Top 3 impact items
     const topImpact = [
         {
